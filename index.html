@@ -24,7 +24,8 @@
                     <input type="button" value="Guardar" class="btn btn-success" v-on:click="agregarNota">
                 </div>
                 <div class="col-md-6 col-xs-12">
-                    <h1>Lista de Notas</h1>
+                    <h1 v-if="lista.length > 0">Lista de Notas</h1>
+                    <h1 v-else="lista">No existen Notas</h1>
                     <table class="table">
                         <tr>
                             <th>Nombre</th>
