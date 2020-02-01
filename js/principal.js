@@ -1,23 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
-        lista: [
-            {
-                nombre:'Juan Carlos',
-                promedio: '10',
-                estado: false
-            },
-            {
-                nombre:'Celina',
-                promedio: '17',
-                estado: true
-            },
-            {
-                nombre:'Jose',
-                promedio: '18',
-                estado: true
-            }
-        ],
+        lista: [],
         nombre: '',
         promedio: ''
     },
